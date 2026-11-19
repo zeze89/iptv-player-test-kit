@@ -1,0 +1,12 @@
+#EXTM3U
+#EXTGRP:Parse: EXTGRP group
+#EXTINF:-1,P06 group from #EXTGRP line
+https://builds.nightmaretv.net/testkit/v1/01-sdr-reference/index.m3u8
+#EXTINF:-1,P06 #EXTVLCOPT user agent line before the URL
+#EXTVLCOPT:http-user-agent=TestKit/1.0
+https://builds.nightmaretv.net/testkit/v1/01-sdr-reference/index.m3u8
+#EXTINF:-1,P06 #KODIPROP line before the URL
+#KODIPROP:inputstream=inputstream.adaptive
+https://builds.nightmaretv.net/testkit/v1/01-sdr-reference/index.m3u8
+#EXTINF:-1 group-title="Parse: options",P06 explicit group-title after #EXTGRP
+https://builds.nightmaretv.net/testkit/v1/01-sdr-reference/index.m3u8

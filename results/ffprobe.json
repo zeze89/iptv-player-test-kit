@@ -1,0 +1,612 @@
+{
+ "01": {
+  "klasor": "01-sdr-reference",
+  "bayt": 6796270,
+  "dosya": 6,
+  "video": {
+   "codec_name": "h264",
+   "profile": "High",
+   "width": 1920,
+   "height": 1080,
+   "pix_fmt": "yuv420p",
+   "r_frame_rate": "25/1",
+   "field_order": "progressive",
+   "color_range": "tv",
+   "color_space": "bt709",
+   "color_primaries": "bt709",
+   "color_transfer": "bt709"
+  },
+  "audio": [
+   {
+    "codec_name": "aac",
+    "channels": 2,
+    "channel_layout": "stereo",
+    "sample_rate": "48000",
+    "language": null
+   }
+  ],
+  "subtitles": [],
+  "sure_sn": "20.000000",
+  "ilk_kare": {
+   "interlaced_frame": 0,
+   "top_field_first": 0
+  },
+  "side_data": [
+   {
+    "side_data_type": "H.26[45] User Data Unregistered SEI message"
+   }
+  ],
+  "sapma": [],
+  "durum": "GECTI"
+ },
+ "02": {
+  "klasor": "02-hdr10-pq-2160p",
+  "bayt": 1750794,
+  "dosya": 7,
+  "video": {
+   "codec_name": "hevc",
+   "profile": "Main 10",
+   "width": 3840,
+   "height": 2160,
+   "pix_fmt": "yuv420p10le",
+   "r_frame_rate": "25/1",
+   "field_order": "progressive",
+   "color_range": "tv",
+   "color_space": "bt2020nc",
+   "color_primaries": "bt2020",
+   "color_transfer": "smpte2084"
+  },
+  "audio": [
+   {
+    "codec_name": "aac",
+    "channels": 2,
+    "channel_layout": "stereo",
+    "sample_rate": "48000",
+    "language": "und"
+   }
+  ],
+  "subtitles": [],
+  "sure_sn": "20.120000",
+  "ilk_kare": {
+   "interlaced_frame": 0,
+   "top_field_first": 0
+  },
+  "side_data": [
+   {
+    "side_data_type": "H.26[45] User Data Unregistered SEI message"
+   },
+   {
+    "side_data_type": "H.26[45] User Data Unregistered SEI message"
+   },
+   {
+    "side_data_type": "Mastering display metadata",
+    "red_x": "34000/50000",
+    "red_y": "16000/50000",
+    "green_x": "13250/50000",
+    "green_y": "34500/50000",
+    "blue_x": "7500/50000",
+    "blue_y": "3000/50000",
+    "white_point_x": "15635/50000",
+    "white_point_y": "16450/50000",
+    "min_luminance": "1/10000",
+    "max_luminance": "10000000/10000"
+   },
+   {
+    "side_data_type": "Content light level metadata",
+    "max_content": 1000,
+    "max_average": 400
+   }
+  ],
+  "sapma": [],
+  "durum": "GECTI"
+ },
+ "03": {
+  "klasor": "03-hlg-1080p50",
+  "bayt": 822301,
+  "dosya": 7,
+  "video": {
+   "codec_name": "hevc",
+   "profile": "Main 10",
+   "width": 1920,
+   "height": 1080,
+   "pix_fmt": "yuv420p10le",
+   "r_frame_rate": "50/1",
+   "field_order": "progressive",
+   "color_range": "tv",
+   "color_space": "bt2020nc",
+   "color_primaries": "bt2020",
+   "color_transfer": "arib-std-b67"
+  },
+  "audio": [
+   {
+    "codec_name": "aac",
+    "channels": 2,
+    "channel_layout": "stereo",
+    "sample_rate": "48000",
+    "language": "und"
+   }
+  ],
+  "subtitles": [],
+  "sure_sn": "20.080000",
+  "ilk_kare": {
+   "interlaced_frame": 0,
+   "top_field_first": 0
+  },
+  "side_data": [
+   {
+    "side_data_type": "H.26[45] User Data Unregistered SEI message"
+   },
+   {
+    "side_data_type": "H.26[45] User Data Unregistered SEI message"
+   }
+  ],
+  "sapma": [],
+  "durum": "GECTI"
+ },
+ "04": {
+  "klasor": "04-10bit-gradient",
+  "bayt": 881833,
+  "dosya": 7,
+  "video": {
+   "codec_name": "hevc",
+   "profile": "Main 10",
+   "width": 1920,
+   "height": 1080,
+   "pix_fmt": "yuv420p10le",
+   "r_frame_rate": "25/1",
+   "field_order": "progressive",
+   "color_range": "tv",
+   "color_space": "bt709",
+   "color_primaries": "bt709",
+   "color_transfer": "bt709"
+  },
+  "audio": [
+   {
+    "codec_name": "aac",
+    "channels": 2,
+    "channel_layout": "stereo",
+    "sample_rate": "48000",
+    "language": "und"
+   }
+  ],
+  "subtitles": [],
+  "sure_sn": "20.120000",
+  "ilk_kare": {
+   "interlaced_frame": 0,
+   "top_field_first": 0
+  },
+  "side_data": [
+   {
+    "side_data_type": "H.26[45] User Data Unregistered SEI message"
+   },
+   {
+    "side_data_type": "H.26[45] User Data Unregistered SEI message"
+   }
+  ],
+  "sapma": [],
+  "durum": "GECTI"
+ },
+ "05": {
+  "klasor": "05-ac3-5.1-channel-id",
+  "bayt": 1547122,
+  "dosya": 6,
+  "video": {
+   "codec_name": "h264",
+   "profile": "High",
+   "width": 1920,
+   "height": 1080,
+   "pix_fmt": "yuv420p",
+   "r_frame_rate": "25/1",
+   "field_order": "progressive",
+   "color_range": "tv",
+   "color_space": "bt709",
+   "color_primaries": "bt709",
+   "color_transfer": "bt709"
+  },
+  "audio": [
+   {
+    "codec_name": "ac3",
+    "channels": 6,
+    "channel_layout": "5.1(side)",
+    "sample_rate": "48000",
+    "language": null
+   }
+  ],
+  "subtitles": [],
+  "sure_sn": "18.000000",
+  "ilk_kare": {
+   "interlaced_frame": 0,
+   "top_field_first": 0
+  },
+  "side_data": [
+   {
+    "side_data_type": "H.26[45] User Data Unregistered SEI message"
+   }
+  ],
+  "sapma": [],
+  "durum": "GECTI"
+ },
+ "06": {
+  "klasor": "06-multi-audio-subtitles",
+  "bayt": 7163926,
+  "dosya": 25,
+  "master": {
+   "ses": 2,
+   "altyazi": 2
+  },
+  "video": {
+   "codec_name": "h264",
+   "profile": "High",
+   "width": 1920,
+   "height": 1080,
+   "pix_fmt": "yuv420p",
+   "r_frame_rate": "25/1",
+   "field_order": null,
+   "color_range": "tv",
+   "color_space": "bt709",
+   "color_primaries": "bt709",
+   "color_transfer": "bt709"
+  },
+  "audio": [
+   {
+    "codec_name": "aac",
+    "channels": 2,
+    "channel_layout": "stereo",
+    "sample_rate": "48000",
+    "language": "eng"
+   },
+   {
+    "codec_name": "aac",
+    "channels": 2,
+    "channel_layout": "stereo",
+    "sample_rate": "48000",
+    "language": "deu"
+   }
+  ],
+  "subtitles": [
+   {
+    "codec_name": "webvtt",
+    "language": null
+   },
+   {
+    "codec_name": "webvtt",
+    "language": null
+   }
+  ],
+  "sure_sn": null,
+  "ilk_kare": {
+   "interlaced_frame": 0,
+   "top_field_first": 0
+  },
+  "side_data": [
+   {
+    "side_data_type": "H.26[45] User Data Unregistered SEI message"
+   }
+  ],
+  "sapma": [],
+  "durum": "GECTI"
+ },
+ "07": {
+  "klasor": "07-av-sync-1080p50",
+  "bayt": 1353482,
+  "dosya": 6,
+  "video": {
+   "codec_name": "h264",
+   "profile": "High",
+   "width": 1920,
+   "height": 1080,
+   "pix_fmt": "yuv420p",
+   "r_frame_rate": "50/1",
+   "field_order": "progressive",
+   "color_range": "tv",
+   "color_space": "bt709",
+   "color_primaries": "bt709",
+   "color_transfer": "bt709"
+  },
+  "audio": [
+   {
+    "codec_name": "aac",
+    "channels": 2,
+    "channel_layout": "stereo",
+    "sample_rate": "48000",
+    "language": null
+   }
+  ],
+  "subtitles": [],
+  "sure_sn": "20.000000",
+  "ilk_kare": {
+   "interlaced_frame": 0,
+   "top_field_first": 0
+  },
+  "side_data": [
+   {
+    "side_data_type": "H.26[45] User Data Unregistered SEI message"
+   }
+  ],
+  "sapma": [],
+  "durum": "GECTI"
+ },
+ "08a": {
+  "klasor": "08a-cadence-23.976",
+  "bayt": 501784,
+  "dosya": 4,
+  "video": {
+   "codec_name": "h264",
+   "profile": "High",
+   "width": 1920,
+   "height": 1080,
+   "pix_fmt": "yuv420p",
+   "r_frame_rate": "24000/1001",
+   "field_order": "progressive",
+   "color_range": "tv",
+   "color_space": "bt709",
+   "color_primaries": "bt709",
+   "color_transfer": "bt709"
+  },
+  "audio": [
+   {
+    "codec_name": "aac",
+    "channels": 2,
+    "channel_layout": "stereo",
+    "sample_rate": "48000",
+    "language": null
+   }
+  ],
+  "subtitles": [],
+  "sure_sn": "12.012264",
+  "ilk_kare": {
+   "interlaced_frame": 0,
+   "top_field_first": 0
+  },
+  "side_data": [
+   {
+    "side_data_type": "H.26[45] User Data Unregistered SEI message"
+   }
+  ],
+  "sapma": [],
+  "durum": "GECTI"
+ },
+ "08b": {
+  "klasor": "08b-cadence-25",
+  "bayt": 464372,
+  "dosya": 4,
+  "video": {
+   "codec_name": "h264",
+   "profile": "High",
+   "width": 1920,
+   "height": 1080,
+   "pix_fmt": "yuv420p",
+   "r_frame_rate": "25/1",
+   "field_order": "progressive",
+   "color_range": "tv",
+   "color_space": "bt709",
+   "color_primaries": "bt709",
+   "color_transfer": "bt709"
+  },
+  "audio": [
+   {
+    "codec_name": "aac",
+    "channels": 2,
+    "channel_layout": "stereo",
+    "sample_rate": "48000",
+    "language": null
+   }
+  ],
+  "subtitles": [],
+  "sure_sn": "12.000000",
+  "ilk_kare": {
+   "interlaced_frame": 0,
+   "top_field_first": 0
+  },
+  "side_data": [
+   {
+    "side_data_type": "H.26[45] User Data Unregistered SEI message"
+   }
+  ],
+  "sapma": [],
+  "durum": "GECTI"
+ },
+ "08c": {
+  "klasor": "08c-cadence-50",
+  "bayt": 602740,
+  "dosya": 4,
+  "video": {
+   "codec_name": "h264",
+   "profile": "High",
+   "width": 1920,
+   "height": 1080,
+   "pix_fmt": "yuv420p",
+   "r_frame_rate": "50/1",
+   "field_order": "progressive",
+   "color_range": "tv",
+   "color_space": "bt709",
+   "color_primaries": "bt709",
+   "color_transfer": "bt709"
+  },
+  "audio": [
+   {
+    "codec_name": "aac",
+    "channels": 2,
+    "channel_layout": "stereo",
+    "sample_rate": "48000",
+    "language": null
+   }
+  ],
+  "subtitles": [],
+  "sure_sn": "12.000000",
+  "ilk_kare": {
+   "interlaced_frame": 0,
+   "top_field_first": 0
+  },
+  "side_data": [
+   {
+    "side_data_type": "H.26[45] User Data Unregistered SEI message"
+   }
+  ],
+  "sapma": [],
+  "durum": "GECTI"
+ },
+ "08d": {
+  "klasor": "08d-cadence-59.94",
+  "bayt": 687152,
+  "dosya": 4,
+  "video": {
+   "codec_name": "h264",
+   "profile": "High",
+   "width": 1920,
+   "height": 1080,
+   "pix_fmt": "yuv420p",
+   "r_frame_rate": "60000/1001",
+   "field_order": "progressive",
+   "color_range": "tv",
+   "color_space": "bt709",
+   "color_primaries": "bt709",
+   "color_transfer": "bt709"
+  },
+  "audio": [
+   {
+    "codec_name": "aac",
+    "channels": 2,
+    "channel_layout": "stereo",
+    "sample_rate": "48000",
+    "language": null
+   }
+  ],
+  "subtitles": [],
+  "sure_sn": "11.996642",
+  "ilk_kare": {
+   "interlaced_frame": 0,
+   "top_field_first": 0
+  },
+  "side_data": [
+   {
+    "side_data_type": "H.26[45] User Data Unregistered SEI message"
+   }
+  ],
+  "sapma": [],
+  "durum": "GECTI"
+ },
+ "09": {
+  "klasor": "09-interlaced-1080i50",
+  "bayt": 500338,
+  "dosya": 6,
+  "video": {
+   "codec_name": "h264",
+   "profile": "High",
+   "width": 1920,
+   "height": 1080,
+   "pix_fmt": "yuv420p",
+   "r_frame_rate": "25/1",
+   "field_order": "tt",
+   "color_range": "tv",
+   "color_space": "bt709",
+   "color_primaries": "bt709",
+   "color_transfer": "bt709"
+  },
+  "audio": [
+   {
+    "codec_name": "aac",
+    "channels": 2,
+    "channel_layout": "stereo",
+    "sample_rate": "48000",
+    "language": null
+   }
+  ],
+  "subtitles": [],
+  "sure_sn": "20.000000",
+  "ilk_kare": {
+   "interlaced_frame": 1,
+   "top_field_first": 1
+  },
+  "side_data": [
+   {
+    "side_data_type": "H.26[45] User Data Unregistered SEI message"
+   }
+  ],
+  "sapma": [],
+  "durum": "GECTI"
+ },
+ "10": {
+  "klasor": "10-long-gop",
+  "bayt": 10356904,
+  "dosya": 16,
+  "video": {
+   "codec_name": "h264",
+   "profile": "High",
+   "width": 1920,
+   "height": 1080,
+   "pix_fmt": "yuv420p",
+   "r_frame_rate": "25/1",
+   "field_order": "progressive",
+   "color_range": "tv",
+   "color_space": "bt709",
+   "color_primaries": "bt709",
+   "color_transfer": "bt709"
+  },
+  "audio": [
+   {
+    "codec_name": "aac",
+    "channels": 2,
+    "channel_layout": "stereo",
+    "sample_rate": "48000",
+    "language": null
+   }
+  ],
+  "subtitles": [],
+  "sure_sn": "30.080000",
+  "ilk_kare": {
+   "interlaced_frame": 0,
+   "top_field_first": 0
+  },
+  "side_data": [
+   {
+    "side_data_type": "H.26[45] User Data Unregistered SEI message"
+   }
+  ],
+  "sapma": [],
+  "durum": "GECTI"
+ },
+ "11": {
+  "klasor": "11-discontinuity",
+  "bayt": 8788941,
+  "dosya": 7,
+  "video": {
+   "codec_name": "h264",
+   "profile": "High",
+   "width": 1920,
+   "height": 1080,
+   "pix_fmt": "yuv420p",
+   "r_frame_rate": "25/1",
+   "field_order": "progressive",
+   "color_range": "tv",
+   "color_space": "bt709",
+   "color_primaries": "bt709",
+   "color_transfer": "bt709"
+  },
+  "audio": [
+   {
+    "codec_name": "aac",
+    "channels": 2,
+    "channel_layout": "stereo",
+    "sample_rate": "48000",
+    "language": null
+   }
+  ],
+  "subtitles": [],
+  "sure_sn": "24.000000",
+  "ilk_kare": {
+   "interlaced_frame": 0,
+   "top_field_first": 0
+  },
+  "side_data": [
+   {
+    "side_data_type": "H.26[45] User Data Unregistered SEI message"
+   }
+  ],
+  "sapma": [],
+  "durum": "GECTI"
+ },
+ "12": {
+  "durum": "bilerek yok (404)"
+ }
+}

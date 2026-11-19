@@ -1,0 +1,6 @@
+﻿#EXTM3U
+#EXTINF:-1 tvg-id="tk01.testkit" group-title="Parse: BOM and CRLF",P04 file starts with UTF-8 BOM, CRLF line ends
+https://builds.nightmaretv.net/testkit/v1/01-sdr-reference/index.m3u8
+
+#EXTINF:-1 group-title="Parse: BOM and CRLF",P04 after an empty line
+https://builds.nightmaretv.net/testkit/v1/01-sdr-reference/index.m3u8

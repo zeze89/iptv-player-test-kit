@@ -1,0 +1,9 @@
+#EXTM3U x-tvg-url="https://nightmaretv.net/testkit/epg.xml" tvg-shift="2" catchup="shift" catchup-days="3"
+#EXTINF:-1 tvg-id="tk01.testkit" group-title="Parse: EPG shift",P05 inherits header tvg-shift +2 h and catchup 3 days
+https://builds.nightmaretv.net/testkit/v1/01-sdr-reference/index.m3u8
+#EXTINF:-1 tvg-id="tk01.testkit" tvg-shift="0" group-title="Parse: EPG shift",P05 channel tvg-shift 0 overrides header
+https://builds.nightmaretv.net/testkit/v1/01-sdr-reference/index.m3u8
+#EXTINF:-1 tvg-id="tk01.testkit" tvg-shift="-1.5" catchup="append" catchup-days="7" catchup-source="?utc={utc}&lutc={lutc}" group-title="Parse: EPG shift",P05 tvg-shift -1.5 h, catchup append 7 days
+https://builds.nightmaretv.net/testkit/v1/01-sdr-reference/index.m3u8
+#EXTINF:-1 tvg-id="tk01.testkit" catchup="disabled" group-title="Parse: EPG shift",P05 catchup disabled
+https://builds.nightmaretv.net/testkit/v1/01-sdr-reference/index.m3u8

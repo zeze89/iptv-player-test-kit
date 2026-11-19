@@ -1,0 +1,11 @@
+#EXTM3U
+#EXTINF:-1 tvg-name="Comma, inside attribute" group-title="Parse: commas",P02 comma inside a quoted attribute
+https://builds.nightmaretv.net/testkit/v1/01-sdr-reference/index.m3u8
+#EXTINF:-1 group-title="Parse: commas",P02 title with a comma, here
+https://builds.nightmaretv.net/testkit/v1/01-sdr-reference/index.m3u8
+#EXTINF:-1 tvg-name="equals=sign" group-title="Parse: commas",P02 equals sign inside attribute
+https://builds.nightmaretv.net/testkit/v1/01-sdr-reference/index.m3u8
+#EXTINF:-1 tvg-id=tk01.testkit group-title=Parse,P02 unquoted attributes
+https://builds.nightmaretv.net/testkit/v1/01-sdr-reference/index.m3u8
+#EXTINF:-1 tvg-id='tk01.testkit' group-title='Parse: commas',P02 single-quoted attributes
+https://builds.nightmaretv.net/testkit/v1/01-sdr-reference/index.m3u8

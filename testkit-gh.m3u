@@ -1,0 +1,34 @@
+#EXTM3U x-tvg-url="https://nightmaretv.net/testkit/epg.xml"
+# Open IPTV Player Test Kit v1. Synthetic test vectors, no channels, no third-party content. CC0 1.0.
+# Expected results for every entry: https://nightmaretv.net/iptv-player-benchmark-2026#test-kit
+# list: github
+#EXTINF:-1 tvg-id="tk01.testkit" tvg-name="TK01 SDR reference 1080p25 H.264 stereo" group-title="Test Kit: baseline",TK01 SDR reference 1080p25 H.264 stereo
+https://builds.nightmaretv.net/testkit/v1/01-sdr-reference/index.m3u8
+#EXTINF:-1 tvg-id="tk02.testkit" tvg-name="TK02 HDR10 PQ 2160p25 HEVC Main10" group-title="Test Kit: HDR",TK02 HDR10 PQ 2160p25 HEVC Main10
+https://builds.nightmaretv.net/testkit/v1/02-hdr10-pq-2160p/index.m3u8
+#EXTINF:-1 tvg-id="tk03.testkit" tvg-name="TK03 HLG 1080p50 HEVC Main10" group-title="Test Kit: HDR",TK03 HLG 1080p50 HEVC Main10
+https://builds.nightmaretv.net/testkit/v1/03-hlg-1080p50/index.m3u8
+#EXTINF:-1 tvg-id="tk04.testkit" tvg-name="TK04 10-bit gradient SDR HEVC Main10" group-title="Test Kit: picture",TK04 10-bit gradient SDR HEVC Main10
+https://builds.nightmaretv.net/testkit/v1/04-10bit-gradient/index.m3u8
+#EXTINF:-1 tvg-id="tk05.testkit" tvg-name="TK05 5.1 channel identification AC-3" group-title="Test Kit: audio",TK05 5.1 channel identification AC-3
+https://builds.nightmaretv.net/testkit/v1/05-ac3-5.1-channel-id/index.m3u8
+#EXTINF:-1 tvg-id="tk06.testkit" tvg-name="TK06 Two audio tracks and two subtitle tracks" group-title="Test Kit: audio",TK06 Two audio tracks and two subtitle tracks
+https://builds.nightmaretv.net/testkit/v1/06-multi-audio-subtitles/index.m3u8
+#EXTINF:-1 tvg-id="tk07.testkit" tvg-name="TK07 Audio video sync flash and beep 1080p50" group-title="Test Kit: timing",TK07 Audio video sync flash and beep 1080p50
+https://builds.nightmaretv.net/testkit/v1/07-av-sync-1080p50/index.m3u8
+#EXTINF:-1 tvg-id="tk08a.testkit" tvg-name="TK08A Frame cadence 23.976 fps" group-title="Test Kit: timing",TK08A Frame cadence 23.976 fps
+https://builds.nightmaretv.net/testkit/v1/08a-cadence-23.976/index.m3u8
+#EXTINF:-1 tvg-id="tk08b.testkit" tvg-name="TK08B Frame cadence 25 fps" group-title="Test Kit: timing",TK08B Frame cadence 25 fps
+https://builds.nightmaretv.net/testkit/v1/08b-cadence-25/index.m3u8
+#EXTINF:-1 tvg-id="tk08c.testkit" tvg-name="TK08C Frame cadence 50 fps" group-title="Test Kit: timing",TK08C Frame cadence 50 fps
+https://builds.nightmaretv.net/testkit/v1/08c-cadence-50/index.m3u8
+#EXTINF:-1 tvg-id="tk08d.testkit" tvg-name="TK08D Frame cadence 59.94 fps" group-title="Test Kit: timing",TK08D Frame cadence 59.94 fps
+https://builds.nightmaretv.net/testkit/v1/08d-cadence-59.94/index.m3u8
+#EXTINF:-1 tvg-id="tk09.testkit" tvg-name="TK09 Interlaced 1080i50 top field first" group-title="Test Kit: picture",TK09 Interlaced 1080i50 top field first
+https://builds.nightmaretv.net/testkit/v1/09-interlaced-1080i50/index.m3u8
+#EXTINF:-1 tvg-id="tk10.testkit" tvg-name="TK10 Long GOP 10 s, segments not on keyframes" group-title="Test Kit: stream",TK10 Long GOP 10 s, segments not on keyframes
+https://builds.nightmaretv.net/testkit/v1/10-long-gop/index.m3u8
+#EXTINF:-1 tvg-id="tk11.testkit" tvg-name="TK11 Discontinuity and resolution change" group-title="Test Kit: stream",TK11 Discontinuity and resolution change
+https://builds.nightmaretv.net/testkit/v1/11-discontinuity/index.m3u8
+#EXTINF:-1 tvg-id="tk12.testkit" tvg-name="TK12 Missing stream (HTTP 404 on purpose)" group-title="Test Kit: stream",TK12 Missing stream (HTTP 404 on purpose)
+https://builds.nightmaretv.net/testkit/v1/12-missing-stream/index.m3u8

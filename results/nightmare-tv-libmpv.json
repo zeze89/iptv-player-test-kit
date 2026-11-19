@@ -1,0 +1,830 @@
+{
+ "dll_sha256": "d3fa92bbfcdb16ce9a8c3f4ff42a3722f41b7d0eede7540edcd9f726a053601f",
+ "mpv_version": "mpv v0.41.0-1-gdf388734a",
+ "ffmpeg_version": "N-126481-g705286a8a7a",
+ "secenek": "vo=null ao=null hwdec=no",
+ "vektorler": {
+  "01": {
+   "url": "http://127.0.0.1:56380/01-sdr-reference/index.m3u8",
+   "yukleme": "ok",
+   "oynatma_basladi": "ok",
+   "ozellik": {
+    "current-tracks/video/codec": "h264",
+    "width": "1920",
+    "height": "1080",
+    "video-params/pixelformat": "yuv420p",
+    "video-params/hw-pixelformat": null,
+    "video-params/colormatrix": "bt.709",
+    "video-params/primaries": "bt.709",
+    "video-params/gamma": "bt.1886",
+    "video-params/sig-peak": "0.000000",
+    "video-params/max-cll": null,
+    "video-params/max-fall": null,
+    "video-params/max-luma": null,
+    "container-fps": "25.000000",
+    "estimated-vf-fps": "25.000000",
+    "audio-codec-name": "aac",
+    "audio-params/channel-count": "2",
+    "audio-params/hr-channels": "stereo",
+    "audio-params/samplerate": "48000",
+    "track-list/count": "2",
+    "frame-drop-count": "0",
+    "decoder-frame-drop-count": "0",
+    "video-frame-info/interlaced": "no",
+    "video-frame-info/tff": "no",
+    "duration": "20.010666"
+   },
+   "izler": [
+    {
+     "type": "video",
+     "id": "1",
+     "lang": null,
+     "codec": "h264",
+     "demux-channel-count": null
+    },
+    {
+     "type": "audio",
+     "id": "1",
+     "lang": null,
+     "codec": "aac",
+     "demux-channel-count": "2"
+    }
+   ],
+   "bitis": {
+    "neden": "eof",
+    "hata": null,
+    "gorulen_boyutlar": [
+     "1920x1080"
+    ],
+    "frame-drop-count": null
+   }
+  },
+  "02": {
+   "url": "http://127.0.0.1:56380/02-hdr10-pq-2160p/index.m3u8",
+   "yukleme": "ok",
+   "oynatma_basladi": "ok",
+   "ozellik": {
+    "current-tracks/video/codec": "hevc",
+    "width": "3840",
+    "height": "2160",
+    "video-params/pixelformat": "yuv420p10",
+    "video-params/hw-pixelformat": null,
+    "video-params/colormatrix": "bt.2020-ncl",
+    "video-params/primaries": "bt.2020",
+    "video-params/gamma": "pq",
+    "video-params/sig-peak": "4.926108",
+    "video-params/max-cll": "1000.000000",
+    "video-params/max-fall": "400.000000",
+    "video-params/max-luma": "1000.000000",
+    "container-fps": "25.000000",
+    "estimated-vf-fps": "25.000000",
+    "audio-codec-name": "aac",
+    "audio-params/channel-count": "2",
+    "audio-params/hr-channels": "stereo",
+    "audio-params/samplerate": "48000",
+    "track-list/count": "2",
+    "frame-drop-count": "0",
+    "decoder-frame-drop-count": "0",
+    "video-frame-info/interlaced": "no",
+    "video-frame-info/tff": "no",
+    "duration": "20.120000"
+   },
+   "izler": [
+    {
+     "type": "video",
+     "id": "1",
+     "lang": null,
+     "codec": "hevc",
+     "demux-channel-count": null
+    },
+    {
+     "type": "audio",
+     "id": "1",
+     "lang": null,
+     "codec": "aac",
+     "demux-channel-count": "2"
+    }
+   ],
+   "bitis": {
+    "neden": "eof",
+    "hata": null,
+    "gorulen_boyutlar": [
+     "3840x2160"
+    ],
+    "frame-drop-count": null
+   }
+  },
+  "03": {
+   "url": "http://127.0.0.1:56380/03-hlg-1080p50/index.m3u8",
+   "yukleme": "ok",
+   "oynatma_basladi": "ok",
+   "ozellik": {
+    "current-tracks/video/codec": "hevc",
+    "width": "1920",
+    "height": "1080",
+    "video-params/pixelformat": "yuv420p10",
+    "video-params/hw-pixelformat": null,
+    "video-params/colormatrix": "bt.2020-ncl",
+    "video-params/primaries": "bt.2020",
+    "video-params/gamma": "hlg",
+    "video-params/sig-peak": "4.926108",
+    "video-params/max-cll": "0.000000",
+    "video-params/max-fall": "0.000000",
+    "video-params/max-luma": "1000.000000",
+    "container-fps": "50.000000",
+    "estimated-vf-fps": "50.000000",
+    "audio-codec-name": "aac",
+    "audio-params/channel-count": "2",
+    "audio-params/hr-channels": "stereo",
+    "audio-params/samplerate": "48000",
+    "track-list/count": "2",
+    "frame-drop-count": "0",
+    "decoder-frame-drop-count": "0",
+    "video-frame-info/interlaced": "no",
+    "video-frame-info/tff": "no",
+    "duration": "20.080000"
+   },
+   "izler": [
+    {
+     "type": "video",
+     "id": "1",
+     "lang": null,
+     "codec": "hevc",
+     "demux-channel-count": null
+    },
+    {
+     "type": "audio",
+     "id": "1",
+     "lang": null,
+     "codec": "aac",
+     "demux-channel-count": "2"
+    }
+   ],
+   "bitis": {
+    "neden": "eof",
+    "hata": null,
+    "gorulen_boyutlar": [
+     "1920x1080"
+    ],
+    "frame-drop-count": null
+   }
+  },
+  "04": {
+   "url": "http://127.0.0.1:56380/04-10bit-gradient/index.m3u8",
+   "yukleme": "ok",
+   "oynatma_basladi": "ok",
+   "ozellik": {
+    "current-tracks/video/codec": "hevc",
+    "width": "1920",
+    "height": "1080",
+    "video-params/pixelformat": "yuv420p10",
+    "video-params/hw-pixelformat": null,
+    "video-params/colormatrix": "bt.709",
+    "video-params/primaries": "bt.709",
+    "video-params/gamma": "bt.1886",
+    "video-params/sig-peak": "0.000000",
+    "video-params/max-cll": null,
+    "video-params/max-fall": null,
+    "video-params/max-luma": null,
+    "container-fps": "25.000000",
+    "estimated-vf-fps": "25.000000",
+    "audio-codec-name": "aac",
+    "audio-params/channel-count": "2",
+    "audio-params/hr-channels": "stereo",
+    "audio-params/samplerate": "48000",
+    "track-list/count": "2",
+    "frame-drop-count": "0",
+    "decoder-frame-drop-count": "0",
+    "video-frame-info/interlaced": "no",
+    "video-frame-info/tff": "no",
+    "duration": "20.120000"
+   },
+   "izler": [
+    {
+     "type": "video",
+     "id": "1",
+     "lang": null,
+     "codec": "hevc",
+     "demux-channel-count": null
+    },
+    {
+     "type": "audio",
+     "id": "1",
+     "lang": null,
+     "codec": "aac",
+     "demux-channel-count": "2"
+    }
+   ],
+   "bitis": {
+    "neden": "eof",
+    "hata": null,
+    "gorulen_boyutlar": [
+     "1920x1080"
+    ],
+    "frame-drop-count": null
+   }
+  },
+  "05": {
+   "url": "http://127.0.0.1:56380/05-ac3-5.1-channel-id/index.m3u8",
+   "yukleme": "ok",
+   "oynatma_basladi": "ok",
+   "ozellik": {
+    "current-tracks/video/codec": "h264",
+    "width": "1920",
+    "height": "1080",
+    "video-params/pixelformat": "yuv420p",
+    "video-params/hw-pixelformat": null,
+    "video-params/colormatrix": "bt.709",
+    "video-params/primaries": "bt.709",
+    "video-params/gamma": "bt.1886",
+    "video-params/sig-peak": "0.000000",
+    "video-params/max-cll": null,
+    "video-params/max-fall": null,
+    "video-params/max-luma": null,
+    "container-fps": "25.000000",
+    "estimated-vf-fps": "25.000000",
+    "audio-codec-name": "ac3",
+    "audio-params/channel-count": "6",
+    "audio-params/hr-channels": "5.1(side)",
+    "audio-params/samplerate": "48000",
+    "track-list/count": "2",
+    "frame-drop-count": "0",
+    "decoder-frame-drop-count": "0",
+    "video-frame-info/interlaced": "no",
+    "video-frame-info/tff": "no",
+    "duration": "18.000000"
+   },
+   "izler": [
+    {
+     "type": "video",
+     "id": "1",
+     "lang": null,
+     "codec": "h264",
+     "demux-channel-count": null
+    },
+    {
+     "type": "audio",
+     "id": "1",
+     "lang": null,
+     "codec": "ac3",
+     "demux-channel-count": "6"
+    }
+   ],
+   "bitis": {
+    "neden": "eof",
+    "hata": null,
+    "gorulen_boyutlar": [
+     "1920x1080"
+    ],
+    "frame-drop-count": null
+   }
+  },
+  "06": {
+   "url": "http://127.0.0.1:56380/06-multi-audio-subtitles/index.m3u8",
+   "yukleme": "ok",
+   "oynatma_basladi": "ok",
+   "ozellik": {
+    "current-tracks/video/codec": "h264",
+    "width": "1920",
+    "height": "1080",
+    "video-params/pixelformat": "yuv420p",
+    "video-params/hw-pixelformat": null,
+    "video-params/colormatrix": "bt.709",
+    "video-params/primaries": "bt.709",
+    "video-params/gamma": "bt.1886",
+    "video-params/sig-peak": "0.000000",
+    "video-params/max-cll": null,
+    "video-params/max-fall": null,
+    "video-params/max-luma": null,
+    "container-fps": "25.000000",
+    "estimated-vf-fps": "25.000000",
+    "audio-codec-name": "aac",
+    "audio-params/channel-count": "2",
+    "audio-params/hr-channels": "stereo",
+    "audio-params/samplerate": "48000",
+    "track-list/count": "5",
+    "frame-drop-count": "0",
+    "decoder-frame-drop-count": "0",
+    "video-frame-info/interlaced": "no",
+    "video-frame-info/tff": "no",
+    "duration": "20.010666"
+   },
+   "izler": [
+    {
+     "type": "audio",
+     "id": "1",
+     "lang": "eng",
+     "codec": "aac",
+     "demux-channel-count": "2"
+    },
+    {
+     "type": "audio",
+     "id": "2",
+     "lang": "deu",
+     "codec": "aac",
+     "demux-channel-count": "2"
+    },
+    {
+     "type": "sub",
+     "id": "1",
+     "lang": "en",
+     "codec": "webvtt",
+     "demux-channel-count": null
+    },
+    {
+     "type": "sub",
+     "id": "2",
+     "lang": "ar",
+     "codec": "webvtt",
+     "demux-channel-count": null
+    },
+    {
+     "type": "video",
+     "id": "1",
+     "lang": null,
+     "codec": "h264",
+     "demux-channel-count": null
+    }
+   ],
+   "secim_sonrasi": {
+    "aid": "2",
+    "sid": "2",
+    "current-tracks/audio/lang": "deu",
+    "current-tracks/sub/lang": "ar",
+    "sub-text": "مسار الترجمة الثاني (2)"
+   },
+   "bitis": {
+    "neden": "eof",
+    "hata": null,
+    "gorulen_boyutlar": [
+     "1920x1080"
+    ],
+    "frame-drop-count": null
+   }
+  },
+  "07": {
+   "url": "http://127.0.0.1:56380/07-av-sync-1080p50/index.m3u8",
+   "yukleme": "ok",
+   "oynatma_basladi": "ok",
+   "ozellik": {
+    "current-tracks/video/codec": "h264",
+    "width": "1920",
+    "height": "1080",
+    "video-params/pixelformat": "yuv420p",
+    "video-params/hw-pixelformat": null,
+    "video-params/colormatrix": "bt.709",
+    "video-params/primaries": "bt.709",
+    "video-params/gamma": "bt.1886",
+    "video-params/sig-peak": "0.000000",
+    "video-params/max-cll": null,
+    "video-params/max-fall": null,
+    "video-params/max-luma": null,
+    "container-fps": "50.000000",
+    "estimated-vf-fps": "50.000000",
+    "audio-codec-name": "aac",
+    "audio-params/channel-count": "2",
+    "audio-params/hr-channels": "stereo",
+    "audio-params/samplerate": "48000",
+    "track-list/count": "2",
+    "frame-drop-count": "0",
+    "decoder-frame-drop-count": "0",
+    "video-frame-info/interlaced": "no",
+    "video-frame-info/tff": "no",
+    "duration": "20.010666"
+   },
+   "izler": [
+    {
+     "type": "video",
+     "id": "1",
+     "lang": null,
+     "codec": "h264",
+     "demux-channel-count": null
+    },
+    {
+     "type": "audio",
+     "id": "1",
+     "lang": null,
+     "codec": "aac",
+     "demux-channel-count": "2"
+    }
+   ],
+   "bitis": {
+    "neden": "eof",
+    "hata": null,
+    "gorulen_boyutlar": [
+     "1920x1080"
+    ],
+    "frame-drop-count": null
+   }
+  },
+  "08a": {
+   "url": "http://127.0.0.1:56380/08a-cadence-23.976/index.m3u8",
+   "yukleme": "ok",
+   "oynatma_basladi": "ok",
+   "ozellik": {
+    "current-tracks/video/codec": "h264",
+    "width": "1920",
+    "height": "1080",
+    "video-params/pixelformat": "yuv420p",
+    "video-params/hw-pixelformat": null,
+    "video-params/colormatrix": "bt.709",
+    "video-params/primaries": "bt.709",
+    "video-params/gamma": "bt.1886",
+    "video-params/sig-peak": "0.000000",
+    "video-params/max-cll": null,
+    "video-params/max-fall": null,
+    "video-params/max-luma": null,
+    "container-fps": "23.976025",
+    "estimated-vf-fps": "23.976024",
+    "audio-codec-name": "aac",
+    "audio-params/channel-count": "2",
+    "audio-params/hr-channels": "stereo",
+    "audio-params/samplerate": "48000",
+    "track-list/count": "2",
+    "frame-drop-count": "0",
+    "decoder-frame-drop-count": "0",
+    "video-frame-info/interlaced": "no",
+    "video-frame-info/tff": "no",
+    "duration": "12.012264"
+   },
+   "izler": [
+    {
+     "type": "video",
+     "id": "1",
+     "lang": null,
+     "codec": "h264",
+     "demux-channel-count": null
+    },
+    {
+     "type": "audio",
+     "id": "1",
+     "lang": null,
+     "codec": "aac",
+     "demux-channel-count": "2"
+    }
+   ],
+   "bitis": {
+    "neden": "eof",
+    "hata": null,
+    "gorulen_boyutlar": [
+     "1920x1080"
+    ],
+    "frame-drop-count": null
+   }
+  },
+  "08b": {
+   "url": "http://127.0.0.1:56380/08b-cadence-25/index.m3u8",
+   "yukleme": "ok",
+   "oynatma_basladi": "ok",
+   "ozellik": {
+    "current-tracks/video/codec": "h264",
+    "width": "1920",
+    "height": "1080",
+    "video-params/pixelformat": "yuv420p",
+    "video-params/hw-pixelformat": null,
+    "video-params/colormatrix": "bt.709",
+    "video-params/primaries": "bt.709",
+    "video-params/gamma": "bt.1886",
+    "video-params/sig-peak": "0.000000",
+    "video-params/max-cll": null,
+    "video-params/max-fall": null,
+    "video-params/max-luma": null,
+    "container-fps": "25.000000",
+    "estimated-vf-fps": "25.000000",
+    "audio-codec-name": "aac",
+    "audio-params/channel-count": "2",
+    "audio-params/hr-channels": "stereo",
+    "audio-params/samplerate": "48000",
+    "track-list/count": "2",
+    "frame-drop-count": "0",
+    "decoder-frame-drop-count": "0",
+    "video-frame-info/interlaced": "no",
+    "video-frame-info/tff": "no",
+    "duration": "12.010666"
+   },
+   "izler": [
+    {
+     "type": "video",
+     "id": "1",
+     "lang": null,
+     "codec": "h264",
+     "demux-channel-count": null
+    },
+    {
+     "type": "audio",
+     "id": "1",
+     "lang": null,
+     "codec": "aac",
+     "demux-channel-count": "2"
+    }
+   ],
+   "bitis": {
+    "neden": "eof",
+    "hata": null,
+    "gorulen_boyutlar": [
+     "1920x1080"
+    ],
+    "frame-drop-count": null
+   }
+  },
+  "08c": {
+   "url": "http://127.0.0.1:56380/08c-cadence-50/index.m3u8",
+   "yukleme": "ok",
+   "oynatma_basladi": "ok",
+   "ozellik": {
+    "current-tracks/video/codec": "h264",
+    "width": "1920",
+    "height": "1080",
+    "video-params/pixelformat": "yuv420p",
+    "video-params/hw-pixelformat": null,
+    "video-params/colormatrix": "bt.709",
+    "video-params/primaries": "bt.709",
+    "video-params/gamma": "bt.1886",
+    "video-params/sig-peak": "0.000000",
+    "video-params/max-cll": null,
+    "video-params/max-fall": null,
+    "video-params/max-luma": null,
+    "container-fps": "50.000000",
+    "estimated-vf-fps": "50.000000",
+    "audio-codec-name": "aac",
+    "audio-params/channel-count": "2",
+    "audio-params/hr-channels": "stereo",
+    "audio-params/samplerate": "48000",
+    "track-list/count": "2",
+    "frame-drop-count": "0",
+    "decoder-frame-drop-count": "0",
+    "video-frame-info/interlaced": "no",
+    "video-frame-info/tff": "no",
+    "duration": "12.010666"
+   },
+   "izler": [
+    {
+     "type": "video",
+     "id": "1",
+     "lang": null,
+     "codec": "h264",
+     "demux-channel-count": null
+    },
+    {
+     "type": "audio",
+     "id": "1",
+     "lang": null,
+     "codec": "aac",
+     "demux-channel-count": "2"
+    }
+   ],
+   "bitis": {
+    "neden": "eof",
+    "hata": null,
+    "gorulen_boyutlar": [
+     "1920x1080"
+    ],
+    "frame-drop-count": null
+   }
+  },
+  "08d": {
+   "url": "http://127.0.0.1:56380/08d-cadence-59.94/index.m3u8",
+   "yukleme": "ok",
+   "oynatma_basladi": "ok",
+   "ozellik": {
+    "current-tracks/video/codec": "h264",
+    "width": "1920",
+    "height": "1080",
+    "video-params/pixelformat": "yuv420p",
+    "video-params/hw-pixelformat": null,
+    "video-params/colormatrix": "bt.709",
+    "video-params/primaries": "bt.709",
+    "video-params/gamma": "bt.1886",
+    "video-params/sig-peak": "0.000000",
+    "video-params/max-cll": null,
+    "video-params/max-fall": null,
+    "video-params/max-luma": null,
+    "container-fps": "59.940060",
+    "estimated-vf-fps": "59.940060",
+    "audio-codec-name": "aac",
+    "audio-params/channel-count": "2",
+    "audio-params/hr-channels": "stereo",
+    "audio-params/samplerate": "48000",
+    "track-list/count": "2",
+    "frame-drop-count": "0",
+    "decoder-frame-drop-count": "0",
+    "video-frame-info/interlaced": "no",
+    "video-frame-info/tff": "no",
+    "duration": "12.010667"
+   },
+   "izler": [
+    {
+     "type": "video",
+     "id": "1",
+     "lang": null,
+     "codec": "h264",
+     "demux-channel-count": null
+    },
+    {
+     "type": "audio",
+     "id": "1",
+     "lang": null,
+     "codec": "aac",
+     "demux-channel-count": "2"
+    }
+   ],
+   "bitis": {
+    "neden": "eof",
+    "hata": null,
+    "gorulen_boyutlar": [
+     "1920x1080"
+    ],
+    "frame-drop-count": null
+   }
+  },
+  "09": {
+   "url": "http://127.0.0.1:56380/09-interlaced-1080i50/index.m3u8",
+   "yukleme": "ok",
+   "oynatma_basladi": "ok",
+   "ozellik": {
+    "current-tracks/video/codec": "h264",
+    "width": "1920",
+    "height": "1080",
+    "video-params/pixelformat": "yuv420p",
+    "video-params/hw-pixelformat": null,
+    "video-params/colormatrix": "bt.709",
+    "video-params/primaries": "bt.709",
+    "video-params/gamma": "bt.1886",
+    "video-params/sig-peak": "0.000000",
+    "video-params/max-cll": null,
+    "video-params/max-fall": null,
+    "video-params/max-luma": null,
+    "container-fps": "25.000000",
+    "estimated-vf-fps": "25.000000",
+    "audio-codec-name": "aac",
+    "audio-params/channel-count": "2",
+    "audio-params/hr-channels": "stereo",
+    "audio-params/samplerate": "48000",
+    "track-list/count": "2",
+    "frame-drop-count": "0",
+    "decoder-frame-drop-count": "0",
+    "video-frame-info/interlaced": "yes",
+    "video-frame-info/tff": "yes",
+    "duration": "20.010666"
+   },
+   "izler": [
+    {
+     "type": "video",
+     "id": "1",
+     "lang": null,
+     "codec": "h264",
+     "demux-channel-count": null
+    },
+    {
+     "type": "audio",
+     "id": "1",
+     "lang": null,
+     "codec": "aac",
+     "demux-channel-count": "2"
+    }
+   ],
+   "bitis": {
+    "neden": "eof",
+    "hata": null,
+    "gorulen_boyutlar": [
+     "1920x1080"
+    ],
+    "frame-drop-count": null
+   }
+  },
+  "10": {
+   "url": "http://127.0.0.1:56380/10-long-gop/index.m3u8",
+   "yukleme": "ok",
+   "oynatma_basladi": "ok",
+   "ozellik": {
+    "current-tracks/video/codec": "h264",
+    "width": "1920",
+    "height": "1080",
+    "video-params/pixelformat": "yuv420p",
+    "video-params/hw-pixelformat": null,
+    "video-params/colormatrix": "bt.709",
+    "video-params/primaries": "bt.709",
+    "video-params/gamma": "bt.1886",
+    "video-params/sig-peak": "0.000000",
+    "video-params/max-cll": null,
+    "video-params/max-fall": null,
+    "video-params/max-luma": null,
+    "container-fps": "25.000000",
+    "estimated-vf-fps": "25.000000",
+    "audio-codec-name": "aac",
+    "audio-params/channel-count": "2",
+    "audio-params/hr-channels": "stereo",
+    "audio-params/samplerate": "48000",
+    "track-list/count": "2",
+    "frame-drop-count": "0",
+    "decoder-frame-drop-count": "0",
+    "video-frame-info/interlaced": "no",
+    "video-frame-info/tff": "no",
+    "duration": "30.080000"
+   },
+   "izler": [
+    {
+     "type": "video",
+     "id": "1",
+     "lang": null,
+     "codec": "h264",
+     "demux-channel-count": null
+    },
+    {
+     "type": "audio",
+     "id": "1",
+     "lang": null,
+     "codec": "aac",
+     "demux-channel-count": "2"
+    }
+   ],
+   "arama": {
+    "hedef_sn": "5",
+    "sonuc": "ok",
+    "time-pos": "6.061333",
+    "width": "1920",
+    "height": "1080"
+   },
+   "bitis": {
+    "neden": "eof",
+    "hata": null,
+    "gorulen_boyutlar": [
+     "1920x1080"
+    ],
+    "frame-drop-count": null
+   }
+  },
+  "11": {
+   "url": "http://127.0.0.1:56380/11-discontinuity/index.m3u8",
+   "yukleme": "ok",
+   "oynatma_basladi": "ok",
+   "ozellik": {
+    "current-tracks/video/codec": "h264",
+    "width": "1920",
+    "height": "1080",
+    "video-params/pixelformat": "yuv420p",
+    "video-params/hw-pixelformat": null,
+    "video-params/colormatrix": "bt.709",
+    "video-params/primaries": "bt.709",
+    "video-params/gamma": "bt.1886",
+    "video-params/sig-peak": "0.000000",
+    "video-params/max-cll": null,
+    "video-params/max-fall": null,
+    "video-params/max-luma": null,
+    "container-fps": "25.000000",
+    "estimated-vf-fps": "25.000000",
+    "audio-codec-name": "aac",
+    "audio-params/channel-count": "2",
+    "audio-params/hr-channels": "stereo",
+    "audio-params/samplerate": "48000",
+    "track-list/count": "2",
+    "frame-drop-count": "0",
+    "decoder-frame-drop-count": "0",
+    "video-frame-info/interlaced": "no",
+    "video-frame-info/tff": "no",
+    "duration": "1007.919566"
+   },
+   "izler": [
+    {
+     "type": "video",
+     "id": "1",
+     "lang": null,
+     "codec": "h264",
+     "demux-channel-count": null
+    },
+    {
+     "type": "audio",
+     "id": "1",
+     "lang": null,
+     "codec": "aac",
+     "demux-channel-count": "2"
+    }
+   ],
+   "arama": {
+    "hedef_sn": "9",
+    "sonuc": "ok",
+    "time-pos": "1002.961333",
+    "width": "1280",
+    "height": "720"
+   },
+   "parca_c": {
+    "time-pos": "1002.461333",
+    "width": "1280"
+   },
+   "bitis": {
+    "neden": "zaman asimi",
+    "hata": null,
+    "gorulen_boyutlar": [
+     "1920x1080",
+     "1280x720"
+    ],
+    "frame-drop-count": "0"
+   }
+  },
+  "12": {
+   "url": "http://127.0.0.1:56380/12-missing-stream/index.m3u8",
+   "yukleme": "stop",
+   "hata": null
+  }
+ }
+}
